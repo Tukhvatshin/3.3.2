@@ -19,6 +19,19 @@
         tools:ignore="MissingConstraints"
         android:entries="@array/countries"/>
 
+    <Spinner
+        android:id="@+id/spinnerTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.373"
+        tools:ignore="MissingConstraints"
+        android:entries="@array/styleTheme"/>
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
@@ -30,18 +43,32 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.491"
-        tools:ignore="MissingConstraints,UnknownId" />
+        tools:ignore="MissingConstraints,UnknownId"
+        android:textAlignment="center"
+        android:textSize="30sp"/>
 
     <Button
         android:id="@+id/button"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_OK"
+        android:text="@string/button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.795"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonTheme"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901"
         tools:ignore="MissingConstraints" />
 
 

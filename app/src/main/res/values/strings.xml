@@ -1,10 +1,17 @@
 <resources>
     <string name="app_name">3.3.2</string>
-    <string name="btn_OK">ОК</string>
-    <string name="hello">Hello!</string>
+    <string name="button">ОК</string>
+    <string name="hello">Привет!</string>
+    <string name="buttonTheme">Тема</string>
     <string-array name="countries">
-    <item>Россия</item>
-    <item>Deutschland</item>
-    <item>USA</item>
+        <item>Россия</item>
+        <item>Deutschland</item>
+        <item>USA</item>
+    </string-array>
+    <string-array name="styleTheme">
+        <item>Выбор темы</item>
+        <item>Black</item>
+        <item>Green</item>
+        <item>Blue</item>
     </string-array>
 </resources>
